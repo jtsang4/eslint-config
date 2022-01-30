@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config",
+  "name": "@jtsang/eslint-config",
   "version": "0.16.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
   "files": [
     "index.js"
   ],
@@ -13,8 +13,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@antfu/eslint-config-react": "^0.16.1",
-    "@antfu/eslint-config-vue": "^0.16.1",
+    "@jtsang/eslint-config-react": "^0.16.1",
+    "@jtsang/eslint-config-vue": "^0.16.1",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "eslint-config-standard": "17.0.0-0",

@@ -13,10 +13,7 @@ module.exports = {
       },
     },
   ],
-  extends: [
-    'plugin:vue/vue3-recommended',
-    '@antfu/eslint-config-ts',
-  ],
+  extends: ['plugin:vue/vue3-recommended', '@jtsang/eslint-config-ts'],
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
@@ -24,4 +21,4 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
   },
-}
+};
