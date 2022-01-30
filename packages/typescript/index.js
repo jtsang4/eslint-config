@@ -31,7 +31,7 @@ module.exports = {
 
     // Override JS
     'no-useless-constructor': 'off',
-    indent: 'off',
+    'indent': 'off',
     '@typescript-eslint/indent': ['error', 2],
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
