@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.17.0 (2022-01-30)
+
+
+### Bug Fixes
+
+* improve rules for specific files ([d701469](https://github.com/jtsang4/eslint-config/commit/d701469a551b2321cab6d75bf18eb71d96dd6f2a))
+* upgrade deps, close [#68](https://github.com/jtsang4/eslint-config/issues/68) ([7b71c78](https://github.com/jtsang4/eslint-config/commit/7b71c7852d3db3df05961893b4f085c16d95d274))
+
+
+### Features
+
+* add react and all ([a7fbdca](https://github.com/jtsang4/eslint-config/commit/a7fbdcad4b20294e26e817fae468f468376e49cf))
+* support eslint v8 ([e9027d5](https://github.com/jtsang4/eslint-config/commit/e9027d5e20540dd6c6adb6a970a6dcbcf7314a81))
+* update ts rules ([13c90b5](https://github.com/jtsang4/eslint-config/commit/13c90b51504d098ea819dad29888fa5e12f11d3c))
+* upgrade eslint-config-standard ([d33ec89](https://github.com/jtsang4/eslint-config/commit/d33ec89b7619895cf1541e597e0cb664f69fc95f))
+
+
+
+
+
 ## [0.16.1](https://github.com/antfu/eslint-config/compare/v0.16.0...v0.16.1) (2022-01-27)
 
 **Note:** Version bump only for package @antfu/eslint-config

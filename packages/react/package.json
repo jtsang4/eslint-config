@@ -1,6 +1,6 @@
 {
   "name": "@jtsang/eslint-config-react",
-  "version": "0.16.1",
+  "version": "0.17.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jtsang/eslint-config-ts": "^0.16.1",
+    "@jtsang/eslint-config-ts": "^0.17.0",
     "eslint-plugin-react": "^7.28.0"
   },
   "devDependencies": {
