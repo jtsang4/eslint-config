@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.19.0](https://github.com/jtsang4/eslint-config/compare/v0.18.0...v0.19.0) (2022-02-08)
+
+
+### Features
+
+* update operator-linebreak rule ([4f92180](https://github.com/jtsang4/eslint-config/commit/4f921809c597b7420d02dc70d15a35910eb8df1e))
+
+
+
+
+
 # [0.18.0](https://github.com/jtsang4/eslint-config/compare/v0.17.0...v0.18.0) (2022-02-06)
 
 
