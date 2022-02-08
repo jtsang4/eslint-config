@@ -2,6 +2,8 @@
 
 > Forked from [@antfu/eslint-config](https://github.com/antfu/eslint-config)
 
+Opinionated eslint configs.
+
 [![npm](https://img.shields.io/npm/v/@jtsang/eslint-config)](https://npmjs.com/package/@jtsang/eslint-config)
 
 ## Usage
