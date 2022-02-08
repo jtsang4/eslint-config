@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/jtsang4/eslint-config/compare/v0.19.0...v0.20.0) (2022-02-08)
+
+
+### Features
+
+* set @typescript-eslint/consistent-type-definitions to 'type' ([90e23a2](https://github.com/jtsang4/eslint-config/commit/90e23a29bc1e08c2732cd667245e30585baf453b))
+
+
+
+
+
 # [0.19.0](https://github.com/jtsang4/eslint-config/compare/v0.18.0...v0.19.0) (2022-02-08)
 
 
