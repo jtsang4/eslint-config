@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const basic = require('@jtsang/eslint-config-basic');
+const basic = require('@jtsang/eslint-config-basic')
 
 module.exports = {
   extends: [
@@ -25,7 +25,7 @@ module.exports = {
       'error',
       { prefer: 'type-imports', disallowTypeAnnotations: false },
     ],
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/prefer-ts-expect-error': 'error',
 
@@ -67,4 +67,4 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
   },
-};
+}
