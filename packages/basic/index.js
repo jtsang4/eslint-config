@@ -198,6 +198,7 @@ module.exports = {
     'require-await': 'off',
     'no-return-assign': 'off',
     'operator-linebreak': 'off',
+    'no-shadow': ['error', { builtinGlobals: false, hoist: 'all' }],
 
     // unicorns
     // Pass error message when throwing errors
