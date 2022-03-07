@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/jtsang4/eslint-config/compare/v0.20.0...v0.21.0) (2022-03-07)
+
+
+### Features
+
+* add no-shadow rule ([1e5769b](https://github.com/jtsang4/eslint-config/commit/1e5769beb915552daf1f12a705d8840e12d80ad1))
+
+
+
+
+
 # [0.20.0](https://github.com/jtsang4/eslint-config/compare/v0.19.0...v0.20.0) (2022-02-08)
 
 **Note:** Version bump only for package @jtsang/eslint-config-basic

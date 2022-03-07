@@ -1,6 +1,6 @@
 {
   "name": "@jtsang/eslint-config",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -13,8 +13,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@jtsang/eslint-config-react": "^0.20.0",
-    "@jtsang/eslint-config-vue": "^0.20.0",
+    "@jtsang/eslint-config-react": "^0.21.0",
+    "@jtsang/eslint-config-vue": "^0.21.0",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-standard": "17.0.0-0",
