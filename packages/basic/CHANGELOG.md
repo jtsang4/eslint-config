@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.22.0](https://github.com/jtsang4/eslint-config/compare/v0.21.0...v0.22.0) (2022-03-07)
+
+
+### Features
+
+* add markdown plugin ([84e63ae](https://github.com/jtsang4/eslint-config/commit/84e63aee3a62c4944c5fd758c28c9b1e6091e6b4))
+
+
+
+
+
 # [0.21.0](https://github.com/jtsang4/eslint-config/compare/v0.20.0...v0.21.0) (2022-03-07)
 
 
