@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.22.1](https://github.com/jtsang4/eslint-config/compare/v0.22.0...v0.22.1) (2022-03-08)
+
+
+### Bug Fixes
+
+* disable no-callback-literal ([fd4b318](https://github.com/jtsang4/eslint-config/commit/fd4b318ba9da965da24c2fa38d93b8d79fcffa56))
+* markdown parser ([527c0d8](https://github.com/jtsang4/eslint-config/commit/527c0d8edea8e6ec0b9af1fe7f5ff12160394107))
+
+
+
+
+
 # [0.22.0](https://github.com/jtsang4/eslint-config/compare/v0.21.0...v0.22.0) (2022-03-07)
 
 
