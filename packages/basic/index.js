@@ -115,8 +115,11 @@ module.exports = {
       rules: {
         'no-unused-vars': 'off',
         'no-undef': 'off',
+        'no-console': 'off',
         'no-unused-expressions': 'off',
         'import/no-unresolved': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
       },
     },
   ],
@@ -249,6 +252,7 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'eslint-comments/disable-enable-pair': 'off',
     'import/no-named-as-default-member': 'off',
+    'n/no-callback-literal': 'off',
 
     'sort-imports': [
       'error',
