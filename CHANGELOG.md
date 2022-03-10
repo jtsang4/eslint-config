@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/jtsang4/eslint-config/compare/v0.22.1...v0.23.0) (2022-03-10)
+
+
+### Features
+
+* update ignorePatterns and json key order ([9739503](https://github.com/jtsang4/eslint-config/commit/9739503455066f8df89513ccc2695bcba9a4aad2))
+
+
+
+
+
 ## [0.22.1](https://github.com/jtsang4/eslint-config/compare/v0.22.0...v0.22.1) (2022-03-08)
 
 
