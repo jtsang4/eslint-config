@@ -22,13 +22,6 @@ pnpm add -D eslint @jtsang/eslint-config
 }
 ```
 
-### Config `.eslintignore`
-
-```txt
-dist
-public
-```
-
 ### Add script for package.json
 
 For example:
@@ -36,12 +29,12 @@ For example:
 ```json
 {
   "scripts": {
-    "lint": "eslint \"**/*.{vue,ts,js}\""
+    "lint": "eslint ."
   }
 }
 ```
 
-### Config VSCode auto fix
+### Config VS Code auto fix
 
 Create `.vscode/settings.json`
 
