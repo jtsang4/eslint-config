@@ -5,10 +5,10 @@
   "keywords": [],
   "license": "MIT",
   "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "main": "index.js",
   "scripts": {
     "lint": "eslint . --config=index.js"
   },

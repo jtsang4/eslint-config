@@ -1,9 +1,9 @@
 {
   "name": "@jtsang/eslint-config-monorepo",
   "version": "0.1.0",
+  "private": true,
   "license": "MIT",
   "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
-  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
