@@ -17,9 +17,14 @@ module.exports = {
     'CHANGELOG.md',
     'dist',
     'LICENSE*',
+    'output',
+    'coverage',
     'public',
     'temp',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
     'yarn.lock',
+    '__snapshots__',
     '!.github',
     '!.vitepress',
     '!.vscode',
@@ -46,6 +51,9 @@ module.exports = {
     {
       files: ['*.yaml', '*.yml'],
       parser: 'yaml-eslint-parser',
+      rules: {
+        'spaced-comment': 'off',
+      },
     },
     {
       files: ['package.json'],
@@ -125,6 +133,7 @@ module.exports = {
         '@typescript-eslint/no-redeclare': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
         'import/no-unresolved': 'off',
         'no-alert': 'off',
         'no-console': 'off',
@@ -279,5 +288,6 @@ module.exports = {
 
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
+    'yml/no-empty-document': 'off',
   },
 }
