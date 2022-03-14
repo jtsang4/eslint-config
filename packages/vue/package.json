@@ -1,6 +1,6 @@
 {
   "name": "@jtsang/eslint-config-vue",
-  "version": "0.23.0",
+  "version": "0.23.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jtsang/eslint-config-ts": "^0.23.0",
+    "@jtsang/eslint-config-ts": "^0.23.1",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
