@@ -18,7 +18,7 @@
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub",
-    "prepublishOnly": "nr build"
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "@typescript-eslint/utils": "^5.20.0"
