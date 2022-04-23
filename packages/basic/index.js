@@ -32,6 +32,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
+    'jtsang',
   ],
   settings: {
     'import/resolver': {
@@ -289,5 +290,8 @@ module.exports = {
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
+
+    // jtsang
+    'jtsang/no-leading-newline': 'error',
   },
 }

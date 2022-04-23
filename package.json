@@ -6,12 +6,14 @@
   "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
   "scripts": {
     "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@jtsang/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
+    "eslint-plugin-jtsang": "^0.23.1",
     "typescript": "^4.6.3"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "extends": "@jtsang",
+  "plugins": [
+    "jtsang"
+  ],
+  "rules": {
+    "jtsang/no-leading-newline": "error"
+  }
+}
