@@ -4,8 +4,14 @@ const basic = require('@jtsang/eslint-config-basic')
 module.exports = {
   extends: [
     '@jtsang/eslint-config-basic',
+    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
+    },
+  },
   overrides: basic.overrides,
   rules: {
     'import/named': 'off',
