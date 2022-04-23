@@ -1,6 +1,6 @@
 {
   "name": "@jtsang/eslint-config-monorepo",
-  "version": "0.24.1",
+  "version": "0.24.2",
   "private": true,
   "license": "MIT",
   "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
