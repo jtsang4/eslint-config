@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      '@jtsang/eslint-config': '*'
+      '@jtsang/eslint-config': workspace:*
       bumpp: ^7.1.1
       eslint: ^8.14.0
-      eslint-plugin-jtsang: ^0.23.1
+      eslint-plugin-jtsang: workspace:*
       typescript: ^4.6.3
     devDependencies:
       '@jtsang/eslint-config': link:packages/all
@@ -18,8 +18,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@jtsang/eslint-config-react': ^0.23.1
-      '@jtsang/eslint-config-vue': ^0.23.1
+      '@jtsang/eslint-config-react': workspace:*
+      '@jtsang/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.20.0
       '@typescript-eslint/parser': ^5.20.0
       eslint: ^8.14.0
@@ -63,7 +63,7 @@ importers:
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-jsonc: ^2.2.1
-      eslint-plugin-jtsang: ^0.23.1
+      eslint-plugin-jtsang: workspace:*
       eslint-plugin-markdown: ^2.2.1
       eslint-plugin-n: ^14.0.0
       eslint-plugin-promise: ^6.0.0
@@ -99,7 +99,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@jtsang/eslint-config-ts': ^0.23.1
+      '@jtsang/eslint-config-ts': workspace:*
       eslint: ^8.14.0
       eslint-plugin-react: ^7.29.4
       react: ^17.0.2
@@ -114,7 +114,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@jtsang/eslint-config-basic': ^0.23.1
+      '@jtsang/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.20.0
       '@typescript-eslint/parser': ^5.20.0
       eslint: ^8.14.0
@@ -127,7 +127,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@jtsang/eslint-config-ts': ^0.23.1
+      '@jtsang/eslint-config-ts': workspace:*
       eslint: ^8.14.0
       eslint-plugin-vue: ^8.7.1
     dependencies:

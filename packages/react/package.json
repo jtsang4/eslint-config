@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jtsang/eslint-config-ts": "^0.23.1",
+    "@jtsang/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.29.4"
   },
   "devDependencies": {
