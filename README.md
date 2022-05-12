@@ -36,7 +36,7 @@ For example:
 ```json
 {
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint . --cache"
   }
 }
 ```
