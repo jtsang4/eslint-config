@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -8,12 +8,14 @@ importers:
       bumpp: ^7.1.1
       eslint: ^8.14.0
       eslint-plugin-jtsang: workspace:*
+      pnpm: ^7.1.2
       typescript: ^4.6.3
     devDependencies:
       '@jtsang/eslint-config': link:packages/all
       bumpp: 7.1.1
       eslint: 8.14.0
       eslint-plugin-jtsang: link:packages/eslint-plugin-jtsang
+      pnpm: 7.1.2
       typescript: 4.6.3
 
   packages/all:
@@ -2662,6 +2664,12 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
     dev: false
+
+  /pnpm/7.1.2:
+    resolution: {integrity: sha512-nZieltHsIEvr5vGcDM4JchBixUk1Esq+XewDP9RCiPAPxRv5LzDhGujgsrtoETyXBsQ9mclXSPppNr80ya4Rnw==}
+    engines: {node: '>=14.19'}
+    hasBin: true
+    dev: true
 
   /postcss-selector-parser/6.0.10:
     resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}

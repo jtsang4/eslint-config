@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "author": "James Tsang <wtzeng1@gmail.com> (https://github.com/jtsang4/)",
+  "packageManager": "pnpm@7.1.2+",
   "scripts": {
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
@@ -14,6 +15,7 @@
     "bumpp": "^7.1.1",
     "eslint": "^8.14.0",
     "eslint-plugin-jtsang": "workspace:*",
+    "pnpm": "^7.1.2",
     "typescript": "^4.6.3"
   }
 }
